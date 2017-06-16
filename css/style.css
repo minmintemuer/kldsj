@@ -1,0 +1,306 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.navbar-default {
+    border: none;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.25);
+}
+
+.navbar-default .navbar-brand {
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+
+.navbar-toggle {
+    margin-top: 17px;
+}
+
+.replacediv {
+    background-color: #2aabd2;
+}
+
+/*div1*/
+
+#div1 {
+    margin-top: 70px;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+}
+
+.lvjing {
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 171, 210, 0.3);
+    padding: 90px 0;
+}
+
+#div1 img {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.indexImage {
+    height: 450px;
+    width: 100%;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.indexImage1 {
+    background-image: url("../images/index_1.jpg");
+}
+
+.indexImage2 {
+    background-image: url("../images/index_2.jpg");
+}
+
+.indexImage3 {
+    background-image: url("../images/index_3.jpg");
+}
+
+/*div2*/
+
+#div2 {
+    padding: 80px 0;
+    text-align: center;
+}
+
+#div2 .col-md-4 {
+    padding: 15px;
+    transition: box-shadow 0.5s;
+}
+
+#div2 .col-md-4:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#div2 a {
+    color: #212121;
+    text-decoration: none;
+}
+
+#div2 h3 {
+    font-weight: bold;
+}
+
+#div2 p {
+    color: gray;
+}
+
+.im {
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/*div3*/
+
+#div3 {
+    background: rgba(43, 171, 210, 0.3);
+    padding: 80px 0;
+    text-align: center;
+}
+
+#div3 h2 {
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+#div3 .col-md-3 {
+    margin-bottom: 20px;
+}
+
+#div3 .btn {
+    background: transparent;
+    border: 1px solid #2aabd2;
+    border-radius: 0px;
+    color: #2aabd2;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+
+#div3 .btn:hover {
+    background: #2aabd2;
+    color: #fff;
+}
+
+/*div4*/
+
+#div4 {
+    padding: 80px 0;
+}
+
+#div4 h2 {
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#div4 .btn {
+    margin: 10px 0;
+    background: #2aabd2;
+    border-color: #2aabd2;
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+
+#div4 .btn:hover {
+    background: #2aabd2;
+}
+
+/*contact*/
+
+#contact {
+    background-size: cover;
+    padding: 70px 0;
+}
+
+#contact h2 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#contact p {
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#contact .form-control {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#contact input,
+#contact textarea {
+    background: rgba(43, 171, 210, 0.3);
+}
+
+#contact textarea.form-control {
+    height: auto;
+}
+
+#contact input[type="submit"] {
+    background: #2aabd2;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+#contact input[type="submit"]:hover,
+#contact input:hover,
+#contact textarea:hover {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+/*footer*/
+
+footer {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+/*course*/
+
+.jumbotron {
+    margin-top: 70px;
+}
+
+.target-fix {
+    position: relative;
+    top: -70px;
+    display: block;
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbotron {
+    background: rgba(43, 171, 210, 0.3);
+}
+
+.classInfo {
+    padding-bottom: 40px;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #999;
+    border: none;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: #444;
+    background-color: #F7FDFA;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 0px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #999;
+    color: #fff;
+    background-color: #26ADE4;
+}
+
+.tg .tg-baqh {
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-amwm {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top
+}
+
+.tg .tg-yw4l {
+    vertical-align: top
+}
+
+/*加入奎联*/
+
+.codePicContainer {
+    width: 300px;
+    height: 300px;
+    margin: 40px auto 40px;
+}
+
+#add {
+    text-align: center;
+}
+
+.codePicContainer img:hover {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
